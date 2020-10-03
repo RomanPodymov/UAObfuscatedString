@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "UAObfuscatedString", targets: ["UAObfuscatedString"])
     ],
     targets: [
-        .target(name: "UAObfuscatedString", path: "/")
+        .target(name: "UAObfuscatedString", path: "")
     ],
     swiftLanguageVersions: [
         .v5
